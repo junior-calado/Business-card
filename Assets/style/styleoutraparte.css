@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/Assets/IMG/kai-pilger-Ef6iL87-vOA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.card {
+    background-color: rgb(38, 35, 35);
+    color: white;
+    width: 900px;
+    /* Ajuste a largura desejada */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box; /* Adicionado para incluir o padding no cálculo das dimensões */
+}
+
+h1 {
+    margin-top: 0;
+    /* Remove a margem superior padrão do <h1> */
+}
+
+.image-container {
+    width: 300px;
+    /* Ajuste a largura da imagem desejada */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Centraliza a imagem horizontalmente */
+    padding-bottom: 20px; /* Adicionado espaçamento abaixo da imagem */
+    box-sizing: border-box; /* Adicionado para incluir o padding no cálculo das dimensões */
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.info-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box; /* Adicionado para incluir o padding no cálculo das dimensões */
+}
+
+.info-container p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px; /* Aumentado o espaçamento inferior entre os parágrafos */
+}
+
+.info-container .btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.info-container .btn:hover {
+    background-color: #0a0808;
+}
+
+.info-container .btn:active {
+    background-color: #990000;
+}
